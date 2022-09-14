@@ -255,7 +255,7 @@
   .hamburger {
     width: 2rem;
     height: 1.5rem;
-    margin: 2rem 2rem;
+    margin: 2rem;
   }
   .hamburger-top,
   .hamburger-middle,
@@ -299,6 +299,9 @@
   }
   .projects {
     margin-top: 100px 0 30px;
+  }
+  .projects h2, .about h2 {
+    color: rgba(255, 255, 255, 0.9);
   }
   .projects div:first-child, .projects div {
     width: 100%;
