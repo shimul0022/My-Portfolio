@@ -466,27 +466,3 @@ footer i {
   font-size: 1.5rem;
   margin-inline: 6px;
 }
-footer img {
-  display: inline-block;
-  width: 30px;
-}
-footer .fiverr {
-  display: flex;
-  align-items: center;
-  transition: all .25s ease-out;
-}
-footer .fiverr:hover {
-  transform: translateY(-4px);
-  color: var(--highlighted-text);
-  border-bottom: 1px solid var(--highlighted-text-light);
-}
-footer .fiverr a {
-  padding-left: .25rem;
-  margin-left: 0;
-}
-footer .fiverr a:hover {
-  transform: translateY(0px);
-}
-.link-fiverr {
-  display: none;
-}
