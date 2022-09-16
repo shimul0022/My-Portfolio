@@ -283,7 +283,6 @@ nav a span {
   align-items: center;
 }
 .projects div:first-child {
-  border-bottom: 2px solid var(--text-color);
   margin: 30px 0 60px;
   width: 90%;
   box-shadow: 0 6px 12px -12px var(--highlighted-text);
