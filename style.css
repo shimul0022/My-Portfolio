@@ -465,3 +465,6 @@ footer i {
   font-size: 1.5rem;
   margin-inline: 6px;
 }
+footer a:last-child i {
+  font-size: 1.375rem;
+}
