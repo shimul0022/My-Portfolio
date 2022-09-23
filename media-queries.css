@@ -138,7 +138,7 @@
     font-size: 1.75rem;
   }
   .about-img img {
-    width: 350px;
+    width: 380px;
   }
 
   footer {
@@ -164,6 +164,9 @@
   footer i {
     font-size: 1.25rem;
     margin-inline: 5px;
+  }
+  footer a:last-child i {
+    font-size: 1.125rem;
   }
 }
 
@@ -236,6 +239,9 @@
   }
   .socials a i {
     font-size: 50px;
+  }
+  .socials a:last-child i {
+    font-size: 43px;
   }
 }
 
@@ -312,13 +318,16 @@
     font-size: 1.25rem;
   }
   .about-text p {
-    padding: 0 0 2rem;
+    padding: 0 1rem 2rem;
   }
   .about-img {
     width: 90%;
   }
   .socials a i {
     font-size: 40px;
+  }
+  .socials a:last-child i {
+    font-size: 35px;
   }
   footer a {
     margin: 0;
@@ -368,5 +377,8 @@
   }
   .socials a i {
     font-size: 35px;
+  }
+  .socials a:last-child i {
+    font-size: 30px;
   }
 }
