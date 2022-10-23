@@ -5,6 +5,7 @@
   }
   .introduction {
     padding: 30px 0rem;
+    margin: .5rem 2rem 1rem;
   }
   .introduction-text {
     max-width: 550px;
@@ -23,15 +24,10 @@
   .projects {
     margin: 70px 25px 30px;
   }
-  .projects div:first-child {
-    margin: 30px 0 55px;
-    width: 95%;
-  }
   .projects h2 {
     font-size: 3.25rem;
   }
   .project-wrapper div {
-    width: 48%;
     margin-bottom: 1.5rem;
   }
   .project-wrapper div a {
@@ -41,6 +37,12 @@
   .about {
     margin: 120px 30px;
   }
+  .about h2 {
+    font-size: 3rem;
+  }
+  .about .header {
+    width: 70%;
+  }
   .about-text {
     width: 57%;
   }
@@ -49,8 +51,8 @@
   }
 
   footer {
-    margin: 8rem 2rem 3rem;
-    padding: 1rem 2rem;
+    margin: 6rem 0 0;
+    padding: 1rem 3rem 4rem;
   }
   footer h3 {
     font-size: 2.5rem;
@@ -65,10 +67,10 @@
 /* Smaller Laptops, 1024px = 64rem =========================== */
 @media screen and (max-width: 1024px) {
   nav ul {
-    padding: 2rem 1rem;
+  padding: 3rem 2rem 0 0;
   }
   nav li {
-    margin-left: .5rem;
+    margin-left: 0;
   }
   .intro-text {
     font-size: 2rem;
@@ -93,15 +95,11 @@
   }
 
   .projects {
-    margin: 70px 10px 30px;
-  }
-  .projects div:first-child {
-    margin: 0 0 60px;
-    width: 95%;
+    margin: 80px 10px 30px;
   }
   .projects h2 {
     font-size: 3rem;
-    padding: .75rem 0;
+    padding: .75rem 3rem;
   }
   .project-wrapper div {
     width: 48%;
@@ -142,11 +140,12 @@
   }
 
   footer {
-    margin: 5rem 1.5rem 3rem;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.5rem 0;
     border-radius: 8px;
+
+    margin: 6rem 0 0;
+    padding: 1rem 3rem 4rem;
   }
   footer h3 {
     font-size: 2.25rem;
@@ -190,6 +189,9 @@
   .hamburger {
     display: block;
   }
+  header p {
+  padding: 0 1.5rem;
+  }
   nav ul {
     display: none;
   }
@@ -209,11 +211,11 @@
     margin-top: 80px;
   }
   .projects h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .projects div {
     width: 95%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
   .about h2 {
     font-size: 2rem;
@@ -253,10 +255,16 @@
     padding: 0 1rem;
     border-radius: 6px;
   }
+  header p {
+    font-size: 3rem;
+    border-radius: 5px;
+    margin: 1.5rem 2rem 3rem;
+  }
   .hamburger {
     width: 2rem;
     height: 1.5rem;
     margin: 2rem;
+    margin-top: 3rem;
   }
   .hamburger-top,
   .hamburger-middle,
@@ -298,6 +306,9 @@
     width: 80%;
     align-self: center;
   }
+  .introduction img {
+    border-width: 2px;
+  }
   .projects {
     margin-top: 100px 0 30px;
   }
@@ -336,11 +347,17 @@
 
 /* Smaller Mobile, 400px = 25rem ===================================== */
 @media screen and (max-width: 400px) {
+  header p {
+    font-size: 2.75rem;
+  }
   .intro-text {
     font-size: 1rem;
   }
   .introduction p {
     font-size: 1rem;
+  }
+  .introduction-image {
+    width: 90%;
   }
   .projects div:first-child {
     margin-bottom: 20px;
@@ -367,10 +384,6 @@
   }
   .about-info h3 span {
     display: none;
-  }
-  footer {
-    margin: 3rem 1rem 1rem;
-    padding: .75rem 0;
   }
   footer h3 {
     font-size: 2rem;
