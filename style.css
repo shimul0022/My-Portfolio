@@ -88,7 +88,7 @@ nav a span {
 }
 
 
-/* Intro ===================
+/* Intro =================== */
 .intro {
   background: black;
   position: fixed;
@@ -122,7 +122,7 @@ nav a span {
 .hide-intro span {
   transform: translateY(100%);
   display: inline-block;
-} */
+}
 
 
 /* Hamburger Menu Icon =============== */
