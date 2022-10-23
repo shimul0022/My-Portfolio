@@ -1,18 +1,18 @@
 const btn = document.getElementById('menu-btn')
 const nav = document.getElementById('menu')
+const body = document.querySelector('body')
 
-function navToggle() {
+btn.addEventListener('click', () => {
   btn.classList.toggle('open')
   nav.classList.toggle('hidden')
-}
-btn.addEventListener('click', navToggle)
+  body.classList.toggle('no-scroll')
+})
 
-
-function linkClick() {
+nav.addEventListener('click', () => {
   btn.classList.toggle('open')
   nav.classList.toggle('hidden')
-}
-nav.addEventListener('click', linkClick)
+  body.classList.toggle('no-scroll')
+})
 
 
 // const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
